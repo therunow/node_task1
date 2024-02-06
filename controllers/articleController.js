@@ -12,10 +12,4 @@ exports.getArticle = async function(req, res){
     console.log(req.params);
     let m=await Models.getOne(req.params.idArticle);
     res.render('articleShow', {data:m});
-    
-<<<<<<< HEAD
-};
-
-=======
-};
->>>>>>> 022eefc213d7514406cbcc0feaa3eb2edb160bc8
+}
