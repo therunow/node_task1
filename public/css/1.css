@@ -1,0 +1,45 @@
+body{
+    background: rgb(244, 216, 125);
+    font-size:1.5rem;
+}
+.form{
+    border:3px solid rgb(144, 124, 57);
+    border-radius:9px;
+}
+
+.success{
+    border:2px solid rgb(214, 99, 16);
+}
+/*
+список статей
+*/
+.main-content {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}   
+/*
+табличка со статьями
+*/
+table {
+    width: 60%; 
+    background: white; 
+    color:rgb(91, 69, 10); 
+    border-spacing: 2px;
+}
+
+td, th {
+    border: none;
+    background: wheat; 
+    padding: 10px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.newsbody{
+    text-align: center;
+}
