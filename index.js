@@ -5,8 +5,8 @@ let urlencodedParser = bodyParser.urlencoded({ extended: false });
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 
-app.use(bodyParser.urlencoded({ extended: true })); //Для принятия данных из формы. Обязательно!!!
-app.use(bodyParser.json());//Для принятия данных из формы. Обязательно!!!
+app.use(bodyParser.urlencoded({ extended: true })); // Для принятия данных из формы. Обязательно!!!
+app.use(bodyParser.json()); // Для принятия данных из формы. Обязательно!!!
 
 let index = require('./routes/index');
 app.use('/', index);
